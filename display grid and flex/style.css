@@ -1,0 +1,21 @@
+.container {
+  display: grid;
+  padding: 10px;
+  margin: 10px;
+  grid-gap: 10px;
+  grid-template-areas:
+    "first first"
+    "second third";
+}
+
+.containerfirst {
+  grid-area: first;
+}
+
+.containersecond {
+  grid-area: second;
+}
+
+.containerthird {
+  grid-area: third;
+}

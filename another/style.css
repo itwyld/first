@@ -1,0 +1,14 @@
+a{
+    color: green;
+}
+
+a:hover{
+    color: gray;
+}
+
+.green {
+    color: green;
+    border: 1px red ;
+    width: 400px;
+}
+
